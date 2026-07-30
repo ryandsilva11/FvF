@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hamburgao_0: 8822912775054464935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

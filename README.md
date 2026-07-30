@@ -79,10 +79,10 @@ Siga o passo a passo abaixo para instalar a Unity e rodar o projeto no seu compu
 
 ## 👥 Equipe & Créditos (Desenvolvedores)
 
-* **Ryan Dias da Silva** ([@seu-perfil-github](https://github.com/)) - Programador Principal, Concepção e Testes.
-* **Tiago Ribeiro Moreira Junior** - Programador Principal, Level Design e Experiência do Usuário (UX).
-* **Erick da Silva Andrade Marco** - Compositor das Músicas originais e Efeitos Sonoros.
-* **Antonio Lamana Neto** - Game Designer, Criação de Mecânicas, Design de Personagens e Animações.
+* **Ryan Dias da Silva** ([@ryandsilva11](https://github.com/)) - Programador Principal, Game designer e Testes.
+* **Tiago Ribeiro Moreira Junior** - Level Design e e pixel artista.
+* **Erick da Silva Andrade** - Sound Designer
+* **Marcos Antonio Lamana Neto** - Ajudante de pixel art.
 
 ---
 

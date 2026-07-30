@@ -4,20 +4,31 @@ using UnityEngine.Rendering;
 
 public class Life : MonoBehaviour
 {
-    //variáveis públicas
     public AudioSource oAudioSource;
     public AudioClip collect;
+
+    private void Start()
+    {
+        if (oAudioSource == null)
+        {
+            oAudioSource = GetComponent<AudioSource>();
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             MainPlayer script = collision.GetComponent<MainPlayer>(); 
-            if(script != null && script.canRegen)
+            if (script != null && script.canRegen)
             {
-                oAudioSource.PlayOneShot(collect);
-                StartCoroutine(Destroyer());
+                if (oAudioSource != null && collect != null)
+                {
+                    oAudioSource.PlayOneShot(collect);
+                }
+
                 script.GetRegen();
+                StartCoroutine(Destroyer());
             }
         }
     }
@@ -27,5 +38,4 @@ public class Life : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
     }
-
 }

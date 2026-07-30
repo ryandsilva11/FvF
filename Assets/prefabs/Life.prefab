@@ -48,8 +48,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ff9845ad9fca734e8129799be397141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oAudiosSource: {fileID: -2668732401007814921}
-  collect: {fileID: 8300000, guid: 4d37b2a0a9dd08948822eadd6cf4313f, type: 3}
+  oAudioSource: {fileID: -2668732401007814921}
+  collect: {fileID: 8300000, guid: e85f12af479c9454aa7f34aca12c4bf1, type: 3}
 --- !u!212 &-3671182827382252469
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -175,7 +175,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

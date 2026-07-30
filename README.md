@@ -62,32 +62,18 @@ Toda a documentação gerada para o desenvolvimento deste projeto de conclusão 
 
 ---
 
-## 🚀 Como Rodar o Projeto na Unity (Guia para Recrutadores)
+## 🚀 Como Rodar o Projeto na Unity
 
-Siga o passo a passo abaixo para importar e testar o jogo diretamente na Unity no seu computador:
+Siga o passo a passo abaixo para instalar a Unity e rodar o projeto no seu computador:
 
-### 1. Pré-requisitos
-* Ter o **[Unity Hub](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe)** instalado.
-* Instalar a versão específica do editor: **Unity 6 (6000.0.46f1)**. 
-  *(Caso não a tenha, o próprio Unity Hub oferecerá o download automático ao tentar abrir o projeto).*
+1. **Baixar o Unity Hub:** Acesse o [link de download do Unity Hub](https://cloud.unity.com/home/organizations/4674081182707/onboarding/post-download?locale=en&code=psv6Zw_3hZONoB1VOXij_w004f&locale=en&session_state=af45e4d2be924bff098771fb7119bfe4d4d92aeba79485445e633d420b946216._r5i28XvCn4zReKIhWEyZQ002f), faça login ou crie uma conta e faça o download da versão correspondente ao seu sistema operacional.
+2. **Acessar o Hub:** Execute o **Unity Hub** instalado e faça login com a conta criada anteriormente.
+3. **Adicionar o Projeto:** Clique em **Add** (ao lado do botão azul *"New Project"*), em seguida selecione **"Add Project from disk"** e escolha a pasta do projeto.
+   * *Unity Editor:* O Hub solicitará que você instale uma versão do Unity Editor. Instale a versão correspondente ao projeto (**`6000.0.46f1`**).
+   * ⚠️ *Nota sobre o download:* O Unity Editor possui cerca de **7.26 GB** e o download pode ser demorado. Caso a instalação pareça travada mesmo após concluir a barra de progresso, feche e abra o Unity Hub novamente.
+4. **Abrir e Executar o Jogo:** Clique no projeto na lista do Hub para abri-lo. 
+   * *Para testar o jogo:* Com o editor aberto, na aba *Project* (na parte inferior), vá em `Assets` -> `Scenes` e dê dois cliques em `MenuPrincipal.unity`. Depois, clique no botão **Play** (ícone de reprodução ⏸️/▶️ no topo central) para jogar no próprio editor!
 
-### 2. Baixando o Projeto
-Você pode clonar este repositório usando o Git ou baixar o código como ZIP e extraí-lo:
-```bash
-git clone https://github.com/seu-usuario/FvF.git
-```
-
-### 3. Abrindo no Unity Hub
-1. Abra o **Unity Hub**.
-2. Clique no botão **Add** (Adicionar) -> **Add project from disk** (Adicionar projeto do disco).
-3. Selecione a pasta raiz deste repositório (a pasta que contém as subpastas `Assets`, `Packages` e `ProjectSettings`).
-4. Clique em **Add Project**.
-5. Clique sobre o nome do projeto na lista para abri-lo. *(A primeira abertura pode demorar alguns minutos enquanto a Unity recria a pasta `Library` e importa os assets).*
-
-### 4. Rodando o Jogo no Editor
-1. Na aba **Project** (geralmente na parte inferior da tela), navegue até a pasta `Assets` -> `Scenes`.
-2. Dê dois cliques no arquivo **`MenuPrincipal.unity`** para abrir a cena inicial.
-3. Clique no botão **Play** (ícone de reprodução ⏸️ na parte superior central da tela da Unity) para jogar!
 
 ---
 
